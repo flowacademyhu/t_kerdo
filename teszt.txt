@@ -1,0 +1,21 @@
+1997  cd ..
+ 1998  mkdir Javito/teszt/dolgozat
+ 1999  mkdir -p Javito/teszt/dolgozat
+ 2000  cd Javito/teszt/dolgozat
+ 2001  touch feladat.txt
+ 2002  cat "Hello" > feladat.txt
+ 2003  echo "Hello" > feladat.txt
+ 2004  ls
+ 2005  cat feladat.txt
+ 2006  cp feladat.txt ~/Javito/teszt/feladat2.txt
+ 2007  cd ..
+ 2008  ls
+ 2009  rmdir -r ~/Javito/teszt/dolgozat
+ 2010  rm -r ~/Javito/teszt/dolgozat
+ 2011  ls
+ 2012  cat feladat2.txt
+ 2013  chmod 750 feladat2.txt
+ 2014  ls -l
+ 2015  grep "sytemd" /etc/passwd
+ 2016  sftp demo@test.rebex.net
+ 2017  history
